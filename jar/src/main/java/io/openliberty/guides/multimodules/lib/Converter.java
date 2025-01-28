@@ -26,6 +26,7 @@ public class Converter {
         int inches = (int) (cm / 2.54) - ((int) feet * 12);
         return inches;
     }
+    
     // end::getInchesMethod[]
 
     public static int sum(int a, int b) {
